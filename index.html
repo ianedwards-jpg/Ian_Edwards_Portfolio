@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Ian Edwards Portfolio</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header class="header__nav">
+      <div class="header__logo">
+        <img src="./assets/header_logo.png" alt="">
+      </div>
+      <nav>
+        <a href="#">Skills</a>  
+        <a href="#">My Projects</a>
+        <a href="#">GitHub</a>
+      </nav>
+    </header>
+    <div class='container'>
+      <section id='grid'>
+        <div class='box'>First Section</div>
+        <div class='box'>Second Section</div>
+        <div class='box'>Third Section</div>
+        <div class='box'>Fourth Section</div>
+      </section>
+    </div>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>
