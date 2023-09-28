@@ -98,16 +98,23 @@ section {
     justify-content: center;
     font-size: 30px;
 }
-
-.skills > .box > .skill_icons {
+.skills > .box > .skill_icons_wrapper {
     display: flex;
     justify-content: center;
-    height: 100px;
+    margin-bottom: 37.5px;
+}
+.skills > .box > .skill_icons_wrapper > .skill_icons {
+    display: flex;
+    justify-content: center;
+    height: 130px;
 }
 
-.skills > .box > .skill_icons > .skill_icon {
-    margin-left: 10px;
-    margin-right: 10px;
+.skills > .box > .skill_icons_wrapper > .skill_icons > .icon_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
 
 .icon_white {
@@ -121,6 +128,9 @@ section {
 .icon_wrapper:hover .icon_white {
     /* position: absolute; */
     display: flex;
+    transform: scale(1.5);
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* .grid > .box:nth-child(3){
