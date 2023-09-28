@@ -102,11 +102,25 @@ section {
 .skills > .box > .skill_icons {
     display: flex;
     justify-content: center;
+    height: 100px;
 }
 
 .skills > .box > .skill_icons > .skill_icon {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.icon_white {
+    display: none;
+}
+.icon_wrapper:hover .icon {
+    /* position: absolute; */
+    display: none;
+}
+
+.icon_wrapper:hover .icon_white {
+    /* position: absolute; */
+    display: flex;
 }
 
 /* .grid > .box:nth-child(3){
